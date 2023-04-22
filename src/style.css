@@ -124,3 +124,66 @@ main {
   font-size: 17px;
   font-weight: 400;
 }
+
+
+@media screen and (max-width: 1100px) {
+  main {
+    padding: 0 30px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .title {
+    font-size: 50px;
+  }
+
+  main {
+    width: 100%;
+  }
+
+  .config-input-and-button {
+    width: 130px;
+    font-size: 15px;
+    padding: 7px 17px;
+  }
+
+  .coin {
+    width: 130px;
+  }
+}
+
+@media screen and (max-width: 625px) {
+
+  main {
+    padding: 0 10px;
+  }
+
+  .title {
+    font-size: 40px;
+  }
+
+  .section-coins {
+    padding: 20px;
+  }
+
+  .section-coins h3 {
+    font-size: 17px;
+  }
+
+  .coin {
+    padding: 7px 4px;
+    width: 100px;
+  }
+  .name-coin {
+    font-size: 15px;
+  }
+
+  .value-coin {
+    font-size: 12px;
+  }
+
+  .values-get {
+    grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+  }
+
+}
