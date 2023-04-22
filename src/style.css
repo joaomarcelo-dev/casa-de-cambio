@@ -53,6 +53,7 @@ main {
 .button-submit {
   background-color: #96EB95;
   transition: all 0.2s ease-in-out;
+  cursor: pointer;
 }
 
 .button-submit:hover {

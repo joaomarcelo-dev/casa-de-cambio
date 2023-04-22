@@ -30,7 +30,7 @@ const createEl = (infocoin) => {
 };
 
 inputCoin.addEventListener('input', (event) => {
-  nameCoin.innerHTML = event.target.value;
+  nameCoin.innerHTML = event.target.value.toUpperCase();
 });
 
 submitBTN.addEventListener('click', () => {
