@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap');
+
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #282c33;
+  font-family: 'Fira Code', monospace;
+}
+
+main {
+  margin-top: 60px;
+  width: 1000px;
+}
+
+.title {
+  color: #fff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 79px;
+}
+
+.color-green {
+  color: #95EBA8;
+}
+
+.input-title {
+  color: #fff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.config-input-and-button {
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  width: 171px;
+  padding: 11px 20px;
+  border: none;
+}
+
+.input-coin {
+  background: rgba(217, 217, 217, 0.1);
+  color: rgba(217, 217, 217, 0.6);
+  outline: none;
+}
+
+.button-submit {
+  background-color: #96EB95;
+  transition: all 0.2s ease-in-out;
+}
+
+.button-submit:hover {
+  transform: scale(0.94);
+  background-color: #77b976;
+
+}
+
+.section-coins {
+  background: rgba(255, 255, 255, 0.06);
+  padding: 52px;
+  margin-top: 57px;
+  border-radius: 20px;
+}
+
+.section-coins h3 {
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
+}
+
+.values-get {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+  gap: 20px;
+}
+
+.coin {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 12px 9px;
+}
+
+.fa-coins {
+  color: #a7a7a7;
+}
+
+.name-coin {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.value-coin {
+  color: #ffe713;
+  font-size: 17px;
+  font-weight: 400;
+}
